@@ -1,3 +1,8 @@
 thirdparty/syntaxhighlighter/build
 thirdparty/syntaxhighlighter/demos
 .bower.json
+.buildpath
+.project
+.settings
+.idea
+.DS_Store

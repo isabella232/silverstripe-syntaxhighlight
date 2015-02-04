@@ -9,6 +9,7 @@ class SyntaxHighlightedPage extends DataExtension
         Requirements::css(SYNTAX_DIR . "/thirdparty/syntaxhighlighter/styles/shCore.css");
         Requirements::css(SYNTAX_DIR . "/thirdparty/syntaxhighlighter/styles/shThemeDefault.css");
 
+        Requirements::javascript(SYNTAX_DIR . "/thirdparty/syntaxhighlighter/scripts/XRegExp.js");
         Requirements::javascript(SYNTAX_DIR . "/thirdparty/syntaxhighlighter/scripts/shCore.js");
         Requirements::javascript(SYNTAX_DIR . "/thirdparty/syntaxhighlighter/scripts/shAutoloader.js");
         Requirements::javascript(SYNTAX_DIR . "/js/syntaxhighlighter-plugin.js");
