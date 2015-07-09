@@ -21,6 +21,7 @@ class SyntaxHighlightedPage extends DataExtension
                 SYNTAX_DIR . '/js/syntaxhighlighter-plugin.js'
             ]
         );
+        LeftAndMain::require_javascript(SYNTAX_DIR . '/thirdparty/syntaxhl/editor_plugin.js');
 
         $syntax_dir = SYNTAX_DIR;
         Requirements::customScript(<<<JS
